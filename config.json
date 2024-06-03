@@ -1,0 +1,13 @@
+{
+  "source_dir": "",
+  "target_dir": "",
+  "excluded_dirs": [""],
+  "pattern": "'^.+\\.gcode$'",
+  "other_pattern": [
+    {
+      "pattern": "^!FORCE.+$",
+      "exec": null
+    }
+  ],
+  "delay": 6
+}
