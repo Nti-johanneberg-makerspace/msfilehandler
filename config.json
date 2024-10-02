@@ -1,13 +1,14 @@
 {
-  "source_dir": "",
-  "target_dir": "",
-  "excluded_dirs": [""],
-  "pattern": "'^.+\\.gcode$'",
+  "source_dir": "/media/makerspace",
+  "target_dir": "/media/makerspace/gcodes",
+  "excluded_dirs": ["gcodes", "BigBoi"],
+  "pattern": "^.+\\.gcode$",
   "other_pattern": [
     {
-      "pattern": "^!FORCE.+$",
+      "pattern": "^FORCE.+$",
       "exec": null
     }
   ],
-  "delay": 6
+  "delay": 6,
+  "verbose": 0
 }
