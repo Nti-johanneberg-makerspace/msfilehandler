@@ -62,7 +62,7 @@ class FileHandler:
                 handled_debug['unhandled'].append(file)
 
     def move_file(self, dir_path, file):
-        target = self.p_join(self.target_dir, f'{datetime.date.today()}_{file}')
+        target = self.p_join(self.target_dir, file)
         shutil.move(self.p_join(self.source_dir, dir_path, file), target)
 
     def check_dirs(self):
