@@ -9,4 +9,4 @@ git -C "$SCRIPT_DIR" fetch origin main
 # Fetch is blocking, so the script will wait until it's done
 
 # Run the main.py file
-"$SCRIPT_DIR/main.py"
+"$SCRIPT_DIR/src/main.py"
